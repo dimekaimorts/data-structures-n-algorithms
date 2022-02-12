@@ -1,4 +1,14 @@
 
+"""
+URL problem:     https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/
+Related topics:  | Tree | DFS | BFS | Binary Tree | Recursion |
+Idea: 
+-------------------------------------------------------------------
+La idea es considerar cada subarbol como un arbol unico, y usar una
+funcion helper de forma recursiva para ir bajando a traves del arbol
+por nivel. Cuando nos encontremos en un nuevo nivel, creamos una nueva
+lista que va a albergar el valor de los nodos a esa altura del nivel
+"""
 
 from typing import Optional, List
 
