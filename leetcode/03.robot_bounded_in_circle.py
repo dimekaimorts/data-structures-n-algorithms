@@ -1,4 +1,20 @@
 
+"""
+URL problem:     https://leetcode.com/problems/robot-bounded-in-circle/
+Related topics:  | Math | String | Simulation |
+Idea: 
+-------------------------------------------------------------------
+- Encontrar aquellas caracteristicas cuando ocurre un ciclo/loop.
+1. Cuando despues de recorrer la cadena, vuelve al inicio (0,0), va a haber un ciclo
+2. Si cambia de direccion, puede haber un ciclo.
+3. Si el punto 1 y 2 se cumple, va a haber un ciclo
+Todo nace de girar en el propio eje, hacia la izquierda o derecha, 90 grados
+    <-^ 
+    | |
+    v->
+
+"""
+
 from typing import List
 from unittest import TestCase
 
