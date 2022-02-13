@@ -23,7 +23,7 @@ Voy a recorrer cada uno de los caracteres
 - Finalmente, si la pila esta vacia, regreso "YES", de otro modo, "NO"
 """
 
-def isBalanced(s:str) -> bool:
+def isBalanced(s:str) -> str:
     stack = []
     brackets = {
         "{" : "}",
