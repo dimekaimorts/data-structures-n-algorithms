@@ -4,6 +4,7 @@ URL problem:     https://www.hackerrank.com/challenges/swap-nodes-algo/problem?i
 Related topics:  | Tree | DFS | Binary Tree |
 Idea: 
 -------------------------------------------------------------------
+Idea de solucion:
 1. Crear el arbol binario a partir de los indices, inicializando el
    nodo raiz con el valor de 1.
 2. Meter ese nodo raiz a una cola, para iterar y crear el arbol
